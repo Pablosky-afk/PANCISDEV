@@ -544,8 +544,9 @@ header .boton p{
 }
 
 	.lbl-menu{
+        width: ;
 		background: rgb(255, 255, 255);
-        padding-top: 5%;
+        padding-top: 0%;
         padding-left: 7%;
         color: #000;
         font-weight: bold;
