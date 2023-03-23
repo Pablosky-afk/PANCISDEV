@@ -501,12 +501,13 @@ header .boton p{
 .tarjeta{
     width: 80%;
     margin-left: 10%;
-    margin-top: -5%;
-    height: 1000px;
+    margin-top: -60px;
+    height: 850px;
     margin-bottom: 10%;
     background: white;
     position: static;
     z-index: 6;
+    border-radius: 50px 50px 0px 0;
 }
 
 .menuuu h3{
@@ -526,7 +527,7 @@ header .boton p{
     padding-top: 2%;
     padding-left: 10%;
     color: #7a7a7a;
-    width: 90%;
+    width: 75%;
     text-align: justify;
     font-size: 17px;
 }
@@ -546,7 +547,7 @@ header .boton p{
 	.lbl-menu{
         width: ;
 		background: rgb(255, 255, 255);
-        padding-top: 0%;
+        padding-top: 2%;
         padding-left: 7%;
         color: #000;
         font-weight: bold;
@@ -663,7 +664,8 @@ header .boton p{
 		color: #2e518b;
 	}
 
-    .tab1 h1{
+    .tab1 h1,
+    .tab2 h1{
         color: rgb(0, 0, 0);
         width: 450px;
         padding-left: 0%;
@@ -714,7 +716,7 @@ header .boton p{
       
       @keyframes slidein {
         from {
-            border-radius: 0px 50px 0px 5px;
+            border-radius: 0px 50px 0px 50px;
         }
       
         to {
