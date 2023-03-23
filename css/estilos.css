@@ -563,16 +563,16 @@ header .boton p{
 
 	.content .tab1:after{
 		left: 69px;
-        bottom: 475px;
+        bottom: 455px;
 
 	}
 	.content .tab2:after{
 		left: 290px;
-        bottom: 490px;
+        bottom: 470px;
 	}
 	.content .tab3:after{
 		left: 520px;
-        bottom: 500px;
+        bottom: 480px;
 	}
 	.content .tab4:after{
 		left: 710px;
