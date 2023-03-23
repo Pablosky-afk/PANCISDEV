@@ -672,6 +672,51 @@ header .boton p{
         padding-left: 5%;
     }
 
+    .tab1 a{
+        color: rgb(0, 0, 0);
+        width: 400px;
+        padding-top: 2%;
+        padding-left: 5%;
+        text-decoration: none;
+        font-weight: bold;
+        z-index: 11;
+    }
+
+    .tab1 .capa{
+        color: #00000000;
+        width: 150px;
+        border-radius: 0px 50px 0px 0px;
+        background-color: #f01a1ac0;
+        margin-left: 5%;
+        margin-top: 5%;
+        z-index: 10;
+        margin-right: 150px;
+        height: 30px;
+    }
+
+    .tab1 .capa:hover{
+        width: 150px;
+        border-radius: 0px 50px 0px 0px;
+        background-color: #eeeb43c0;
+        animation: 3s;
+    }
+
+    .tab1 .capa{
+        animation: 3s infinite alternate slidein;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+            border-radius: 0px 50px 0px 5px;
+        }
+      
+        to {
+            border-radius: 50px 0px 50px 0px;
+    
+        }
+      }
+
     .tab1 img{
         width: 100%;
         height: 350px;
