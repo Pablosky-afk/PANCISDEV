@@ -547,10 +547,10 @@ header .boton p{
 	.content div:after{
 		position: absolute;
 		content: "";
-		border-left: 40px solid transparent;
-		border-right: 40px solid transparent;
-		border-top: 40px solid transparent;
-		border-bottom: 10px solid rgba(218, 81, 40, 0.548);
+		border-left: 10px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid transparent;
+		border-bottom: 15px solid rgba(218, 81, 40, 0.548);
 		bottom: 100%;
 		left: 68px;
 	}
@@ -562,17 +562,17 @@ header .boton p{
 	}
 
 	.content .tab1:after{
-		left: 45px;
-        bottom: 430px;
+		left: 69px;
+        bottom: 475px;
 
 	}
 	.content .tab2:after{
-		left: 250px;
-        bottom: 450px;
+		left: 290px;
+        bottom: 490px;
 	}
 	.content .tab3:after{
-		left: 500px;
-        bottom: 460px;
+		left: 520px;
+        bottom: 500px;
 	}
 	.content .tab4:after{
 		left: 710px;
