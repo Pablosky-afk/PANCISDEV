@@ -49,6 +49,13 @@ body{
 
 /*NavBar*/
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 nav{
     width: 100%;
     margin-left:15%;
@@ -161,6 +168,25 @@ header .boton p{
     z-index: 5;
 }
 
+.slider-frame#nosotros{
+	width: 100%;
+    height: 400px;
+	overflow: hidden;
+    margin-bottom: 0%;
+    z-index: 0;
+}
+
+h1#titulo3{
+    margin-top: -15%;
+    margin-bottom: 400px;
+    margin-left: 15%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fffcfc;
+}
+
+
+
 .slider-frame ul {
 	display: flex;
 	padding: 0;
@@ -178,7 +204,7 @@ header .boton p{
 .slider-frame ul li a{
     position: relative;
 	top: -40%;
-    left: 30%;
+    left: 0%;
     text-decoration: none;
 }
 
@@ -192,8 +218,8 @@ header .boton p{
     border-color: white;
     width: 15%;
     height: 4%;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 1%;
+    margin-left: 45%;
     text-align: center;
     padding-top: 1%;
 }
@@ -207,8 +233,9 @@ header .boton p{
     border-color: white;
     width: 100%;
     height: 4%;
-    margin-top: -20%;
-    padding-left: 3%;
+    margin-top: -30%;
+    margin-bottom: 6%;
+    margin-right: 30%;
     font-weight: bold;
 }
 
@@ -444,9 +471,28 @@ header .boton p{
     height: 850px;
     margin-bottom: 10%;
     background: white;
-    position: static;
+    position: relative;
     z-index: 6;
     border-radius: 50px 50px 0px 0;
+}
+
+.tarjeta#nosotros{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -20%;
+    height: 850px;
+    margin-bottom: 10%;
+    background: white;
+    position:relative;
+    z-index: 6;
+    border-radius: 50px 50px 0px 0;
+}
+
+.tarjeta#nosotros h1{
+    padding-top: 5%;
+    padding-left: 10%;
+    color: #000000;
+    width: 40%;
 }
 
 .menuuu h3{
@@ -469,6 +515,20 @@ header .boton p{
     width: 75%;
     text-align: justify;
     font-size: 17px;
+}
+
+.tarjeta#nosotros h2{
+    padding-top: 5%;
+    padding-left: 10%;
+    color: #818181;
+    width: 40%;
+}
+
+.tarjeta#nosotros img{
+    margin-left: 50%;
+    margin-top: -50%;
+    width: 40%;
+    height: 70%;
 }
 
 .menuuu .content{
@@ -814,11 +874,27 @@ margin-bottom: 5%;
     color: #7e7e7e;
 }
 
+.articulo#nosotros3 h2{
+    margin-left: 50%;
+    margin-top: -7%;
+    width: 500px;
+    text-align: justify;
+    color: #757575;
+}
+
 .articulo img{
     width: 550px;
     height: 350px;
     margin-left: 50%;
     margin-top: -450px;
+    text-align: justify;
+}
+
+.articulo#nosotros3 img{
+    width: 550px;
+    height: 350px;
+    margin-left: 50%;
+    margin-top: 50px;
     text-align: justify;
 }
 
@@ -848,8 +924,10 @@ margin-bottom: 5%;
 	vertical-align: middle;
     background-color: beige;
     margin-top: 15px;
+    width: 35px;
     
 }
+
 
 .contacto p{
 	vertical-align: middle;
@@ -1046,3 +1124,136 @@ form button{
     width: 20%;
     margin-left: 35%;
 }
+
+/* layout nosotros */
+
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .btn {
+    color: #000;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+
+  .card#card3 .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.945);
+    background: transparent;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: #fbbd00 70%;
+  }
+  
+  .card#card3 .card_content {
+    padding: 1rem;
+    background: #fb0000 70%;
+  }
+
+  .card_title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    color: #000;
+  }
+
+  .card#card3 .card_title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    color: #ffffff;
+  }
+  
+  .card_text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+    color: #000;
+  }
+
+  .card#card3 .card_text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .card#cardpura img {
+    height: 180%;
+  }
