@@ -176,6 +176,14 @@ header .boton p{
     z-index: 0;
 }
 
+.slider-frame#nosotros2{
+	width: 100%;
+    height: 500px;
+	overflow: hidden;
+    margin-bottom: 0%;
+    z-index: 0;
+}
+
 h1#titulo3{
     margin-top: -15%;
     margin-bottom: 400px;
@@ -488,8 +496,27 @@ h1#titulo3{
     border-radius: 50px 50px 0px 0;
 }
 
+.tarjeta#nosotros21{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -14%;
+    height: 650px;
+    margin-bottom: 10%;
+    background: white;
+    position:relative;
+    z-index: 6;
+    border-radius: 50px 50px 0px 0;
+}
+
 .tarjeta#nosotros h1{
     padding-top: 5%;
+    padding-left: 10%;
+    color: #000000;
+    width: 40%;
+}
+
+.tarjeta#nosotros21 h1{
+    padding-top: 0%;
     padding-left: 10%;
     color: #000000;
     width: 40%;
@@ -524,11 +551,25 @@ h1#titulo3{
     width: 40%;
 }
 
+.tarjeta#nosotros21 h2{
+    padding-top: 5%;
+    padding-left: 10%;
+    color: #818181;
+    width: 40%;
+}
+
 .tarjeta#nosotros img{
     margin-left: 50%;
-    margin-top: -50%;
+    margin-top:-40%;
     width: 40%;
     height: 70%;
+}
+
+.tarjeta#nosotros21 img{
+    margin-left: 50%;
+    margin-top: -35%;
+    width: 40%;
+    height: 80%;
 }
 
 .menuuu .content{
@@ -851,6 +892,7 @@ h1#titulo3{
 
 .articulo{
 margin-bottom: 5%;
+box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .articulo h3{
@@ -859,8 +901,19 @@ margin-bottom: 5%;
     color: #afadad;
 }
 
+.articulo#nosotros22 h3{
+    margin-left: 45%;
+}
+
 .articulo h1{
     margin-left: 10%;
+    width: 430px;
+    margin-top: 3%;
+    font-size: 45px;
+}
+
+.articulo#nosotros22 h1{
+    margin-left: 40%;
     width: 430px;
     margin-top: 3%;
     font-size: 45px;
@@ -882,6 +935,14 @@ margin-bottom: 5%;
     color: #757575;
 }
 
+.articulo#nosotros22 h2{
+    margin-left: 50%;
+    margin-top: -7%;
+    width: 500px;
+    text-align: justify;
+    color: #757575;
+}
+
 .articulo img{
     width: 550px;
     height: 350px;
@@ -896,6 +957,40 @@ margin-bottom: 5%;
     margin-left: 50%;
     margin-top: 50px;
     text-align: justify;
+}
+
+.articulo .card2{
+    max-width: 1000px;
+    margin-left: 20%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction:initial;
+}
+
+.articulo .card22{
+    margin-right: 7%;
+}
+
+.articulo .card2 img{
+    width: 10%;
+    height: 50px;
+    margin-left: 15%;
+}
+
+.articulo#nosotros22 .card2 .card22 h1{
+    margin-left: 0%;
+    width: 430px;
+    margin-top: -35%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.articulo#nosotros22 .card2 .card22 h2{
+    margin-left: 15%;
+    width: 430px;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
