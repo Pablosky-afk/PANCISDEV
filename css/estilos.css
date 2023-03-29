@@ -59,7 +59,7 @@ header{
 nav{
     width: 100%;
     margin-left:15%;
-    padding-top: 2.5%;
+    padding-top: 2%;
     
 }
 
@@ -153,6 +153,39 @@ header .boton{
     font-size: 14px;
 }
 
+.cotizarbanner1 .boton2{
+    background:#b82b18;
+    height: 50px;
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+
+
+.cotizarbanner1 .boton22{
+    margin-top: 15%;
+    margin-left: 0%;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cotizarbanner1 .boton22:hover{
+    color: rgb(255, 255, 255);
+    animation: alternate;
+    font-size: 20px;
+
+}
+
+.boton22 p{
+    padding-top: 5%;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
 header .boton p{
     margin-top: 12%;
     margin-left: 30%;
@@ -177,6 +210,14 @@ header .boton p{
 }
 
 .slider-frame#nosotros2{
+	width: 100%;
+    height: 500px;
+	overflow: hidden;
+    margin-bottom: 0%;
+    z-index: 0;
+}
+
+.slider-frame#preguntas1{
 	width: 100%;
     height: 500px;
 	overflow: hidden;
@@ -475,7 +516,7 @@ h1#titulo3{
 .tarjeta{
     width: 80%;
     margin-left: 10%;
-    margin-top: -60px;
+    margin-top: -100px;
     height: 850px;
     margin-bottom: 10%;
     background: white;
@@ -499,7 +540,19 @@ h1#titulo3{
 .tarjeta#nosotros21{
     width: 80%;
     margin-left: 10%;
-    margin-top: -14%;
+    margin-top: -19%;
+    height: 650px;
+    margin-bottom: 10%;
+    background: white;
+    position:relative;
+    z-index: 6;
+    border-radius: 50px 50px 0px 0;
+}
+
+.tarjeta#preguntas2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -10%;
     height: 650px;
     margin-bottom: 10%;
     background: white;
@@ -560,7 +613,7 @@ h1#titulo3{
 
 .tarjeta#nosotros img{
     margin-left: 50%;
-    margin-top:-40%;
+    margin-top:-60%;
     width: 40%;
     height: 70%;
 }
@@ -856,7 +909,7 @@ h1#titulo3{
     .tab3 img{
         width: 45%;
         height: 350px;
-        margin-top: -650px;
+        margin-top: -350px;
         margin-left: 500px;
     }
 
@@ -892,7 +945,6 @@ h1#titulo3{
 
 .articulo{
 margin-bottom: 5%;
-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .articulo h3{
@@ -903,6 +955,7 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 
 .articulo#nosotros22 h3{
     margin-left: 45%;
+    font-size: 15px;
 }
 
 .articulo h1{
@@ -916,7 +969,7 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin-left: 40%;
     width: 430px;
     margin-top: 3%;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .articulo h2{
@@ -935,13 +988,7 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     color: #757575;
 }
 
-.articulo#nosotros22 h2{
-    margin-left: 50%;
-    margin-top: -7%;
-    width: 500px;
-    text-align: justify;
-    color: #757575;
-}
+
 
 .articulo img{
     width: 550px;
@@ -961,7 +1008,7 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 
 .articulo .card2{
     max-width: 1000px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 20%;
     display: flex;
     flex-direction:initial;
@@ -978,10 +1025,10 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .articulo#nosotros22 .card2 .card22 h1{
-    margin-left: 0%;
+    margin-left: -4%;
     width: 430px;
     margin-top: -35%;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -989,8 +1036,12 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin-left: 15%;
     width: 430px;
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.banner{
+    background-color: #000;
 }
 
 
@@ -1013,123 +1064,117 @@ box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 
 /* contacto footer*/
 
-.contacto img{
-	align-content: flex-start;
-	margin-right: 5px;
-	vertical-align: middle;
-    background-color: beige;
-    margin-top: 15px;
-    width: 35px;
-    
+.dummy_page {
+  height: 200px;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 15%;
+  width: 155%;
+}
+.footer .col ul li a{
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  text-decoration: none;
+  margin-top: 1%;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
 }
 
-
-.contacto p{
-	vertical-align: middle;
-    background: beige; /*linear-gradient(to left, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.footer .col ul li a:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
 }
-
-.contactos{
-	position: relative;
-
-    background: beige; /*linear-gradient(to left, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.clearfix {
+  clear: both;
 }
-
-.contactos h1{
-	font-size: 50px;
-    background: beige;
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
 }
-
-.contactos h4{
-	margin-bottom: 0px;
-    background: beige;  
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
 }
-
-.contactos p{
-    background: beige;  
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
 }
-
-.contacto {
-	text-align: center;
-	font-size: 20px;
-    background: beige; 
-}
-
-.contacto img{
-	align-content: flex-start;
-	margin-right: 5px;
-	vertical-align: middle;
-}
-
-.contacto p{
-	vertical-align: middle;
-}
-
-.contactos{
-	position: relative;
-    background: beige ;/*linear-gradient(to left, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.contactos h1{
-	font-size: 50px;
-    background: beige; /*linear-gradient(to left, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.contactos h4{
-    background: beige; /*linear-gradient(to left, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.contactos p{
-    background: beige;/*linear-gradient(to left, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-/*Responsividad footer*/
-
-@media (max-width:759px) {
-    .contacto {
-        text-align: center;
-        font-size: 15px;
-        background: beige; 
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
     }
-
-    .contacto img{
-        width: 40px;
-        
+    .footer .col h1 {
+      font-size: 14px;
     }
-    
+    .footer .col ul li {
+      font-size: 13px;
+    }
 }
-
-@media (max-width:589px) {
-    .contacto {
-        font-size: 12px; 
-    }
-
-    .contacto img{
-        width: 30px;
-    }
-    
-}
-
-@media (max-width:467px) {
-    .contacto {
-        font-size: 10px;
-    }
-
-    .contacto img{
-        width: 20px;
-    }
-    
-}
-
-@media (max-width:467px) {
-    .contacto {
-        font-size: 20px;
-    }
-
-    .contacto img{
-        width: 20px;
-    }
-    
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
 }
 
 /* boton cotizar */
@@ -1225,6 +1270,7 @@ form button{
 .main{
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 5%;
   }
   
   h1 {
@@ -1351,4 +1397,20 @@ form button{
 
   .card#cardpura img {
     height: 180%;
+  }
+
+  .cotizarbanner{
+    background-image: url("https://th.bing.com/th/id/OIP.ZmNlbsF3Tm6EC37N_7uKZwHaDt?pid=ImgDet&rs=1");
+    height: 450px;
+  }
+
+  .cotizarbanner h1{
+    color: white;
+    padding-top: 9%;
+  }
+
+  .cotizarbanner h2{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
   }
