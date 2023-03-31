@@ -230,7 +230,7 @@ header .boton p{
 h1#titulo3{
     margin-top: -15%;
     margin-bottom: 400px;
-    margin-left: 15%;
+    margin-left: 0%;
     font-size: 45px;
     font-weight: bold;
     color: #fffcfc;
@@ -1182,7 +1182,7 @@ margin-bottom: 5%;
 /* boton cotizar */
 
 .cotizar{
-	background-color: #fbbd00;
+	background-image:url(/img/cotizar.jpg);
     height: 500px;
     margin-top: 5%;
     padding-top: 2%;
@@ -1416,5 +1416,74 @@ form button{
     text-align: center;
     margin-top: 5%;
   }
-
+/*Galeria*/
+.gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    background-image: url(https://previews.123rf.com/images/xurzon/xurzon1607/xurzon160700029/62194941-muro-de-hormig%C3%B3n-de-textura-de-fondo.jpg);
+  }
   
+  .gallery-image img {
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+  }
+  
+  .img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .img-box:hover img { 
+    transform: scale(1.1);
+  }
+  
+  .img-box:hover .transparent-box {
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  
+  .img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+  }
+  
+  .img-box:hover {
+    cursor: pointer;
+  }
+  
+  .caption > p:nth-child(2) {
+    font-size: 0.8em;
+  }
+  
+  .opacity-low {
+    opacity: 0.5;
+  }
