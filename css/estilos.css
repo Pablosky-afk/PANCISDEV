@@ -71,13 +71,13 @@ nav{
 }
 
 #menu ul li {
-    background-color: #ffffff;
+    background-color: black;
 
 }
 
 #menu ul a {
     display:block;
-    color:#000000;
+    color:white;
     text-decoration:none;
     font-weight:bolder;
     font-size:13px;
@@ -97,7 +97,7 @@ nav{
 }
 
 #menu ul li a:hover {
-    color:#dfdc37;
+    color:#fbbd00;
 }
 
 #menu ul ul {
@@ -131,7 +131,7 @@ nav{
 
 header{
     height: 100px;
-    background-color: #ffffff;
+    background-color: black;
     display: flex;
     flex-direction: row;
 }
@@ -1079,7 +1079,7 @@ margin-bottom: 5%;
   width: 100%;
   position: relative;
   height: auto;
-  background-color: #070617;
+  background-color: black;
 }
 .footer .col {
   width: 190px;
@@ -1182,7 +1182,7 @@ margin-bottom: 5%;
 /* boton cotizar */
 
 .cotizar{
-	background-color: #f0f0f1;
+	background-color: #fbbd00;
     height: 500px;
     margin-top: 5%;
     padding-top: 2%;
@@ -1416,3 +1416,5 @@ form button{
     text-align: center;
     margin-top: 5%;
   }
+
+  
