@@ -1424,7 +1424,7 @@ form button{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -12%;
-    background-image: url(https://pre23rf./images/xurzon/xurzon1607/xurzon160700029/62194941-muro-de-hormig%C3%B3n-de-textura-de-fondo.jpg);
+    background-image: url(https://previews.123rf.com/images/xurzon/xurzon1607/xurzon160700029/62194941-muro-de-hormig%C3%B3n-de-textura-de-fondo.jpg);
   }
   
   .gallery-image img {
@@ -1551,4 +1551,98 @@ form button{
     margin: 40px 0 20px 0;
     text-align: center;
   }
-  
+ 
+  /*Contactate con nosotros*/
+  .contenedor-about-us2{
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+    
+  }
+  .cotizar2{
+	background-image:url(https://previews.123rf.com/images/xurzon/xurzon1607/xurzon160700029/62194941-muro-de-hormig%C3%B3n-de-textura-de-fondo.jpg);
+    height: 500px;
+    margin-top: 5%;
+    padding-top: 2%;
+
+}
+
+label{
+	font-size: 16px;
+		background: rgb(12, 11, 80);
+	color: white;
+}
+
+label p{
+	color: white;
+}
+
+.form label{
+	font-size: 50px;
+}
+
+form {
+	margin: auto;
+	margin-top: 40px;
+	background-image: url(/img/black\ -\ -golden-metallic-background\ -\ an-abstract-metal-sheet\ -\ v_2428004jpg!bwr800.jpg);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+form textarea{
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+}
+
+form h2{
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.cotizar2 form p{
+	margin-bottom: 20px;
+	background-image: url(/img/black\ -\ -golden-metallic-background\ -\ an-abstract-metal-sheet\ -\ v_2428004jpg!bwr800.jpg);
+}
+
+form label{
+	background-color: transparent;
+    margin-left: 20%;
+    margin-top: -5%;
+    color: white;
+
+}
+
+form ::placeholder{
+	font-size: 16px;
+}
+
+.mycheck{
+	width: 19px;
+	background: white;
+	font-size: 10px;
+	margin-top: 3%;
+}
+
+form button{
+    margin-top: 5%;
+    width: 20%;
+    margin-left: 35%;
+}
+/*Servicios*/
