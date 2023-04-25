@@ -11,7 +11,6 @@
 body{
     font-family: 'open sans';
     background-color: beige;
-    min-width: 295px;
 }
 
 
@@ -204,12 +203,21 @@ header .boton p{
 @media (max-width:1040px) {
     nav{
         height: 250px;
+        width: 100%;
     }
 }
 
 @media (max-width:700px) {
     header nav{
         visibility: hidden;
+    }
+}
+
+@media (max-width:500px) {
+    
+
+    header{
+        width: 360px;
     }
 }
 
@@ -326,6 +334,21 @@ h1#titulo3{
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}
+
+/* responsividad carusel */
+
+@media (max-width:360px) {
+    
+
+    .slider-frame{
+        margin-top: 90%;
+        width: 360px;
+    }
+
+    body{
+        width: 350px;
+    }
 }
 
 
@@ -963,6 +986,21 @@ h1#titulo3{
         width: 2px;
         margin-left: -1em
     }
+
+/* responsividad card */
+
+.lbl-menu label{
+    display: inline-block;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 400ms ease;
+    width: 220px;
+    text-align: center;
+    border-color: #c07070;
+    background: hsla(71, 20%, 22%, 0);
+    font-style: italic;
+}
 
 /* articulo */
 
