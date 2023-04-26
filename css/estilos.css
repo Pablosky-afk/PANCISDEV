@@ -10,7 +10,7 @@
 
 body{
     font-family: 'open sans';
-    background-color: beige;
+    
     min-width: 295px;
 }
 
@@ -282,7 +282,7 @@ h1#titulo3{
 .slider-frame ul li a p{
     position: relative;
     color: rgb(252, 252, 252);
-    background-color: #a83417;
+    background-color: #ff3131;
     font-weight: bold;
     border-radius: 40px;
     border-width: 100px;
@@ -291,8 +291,12 @@ h1#titulo3{
     height: 4%;
     margin-top: 1%;
     text-align: center;
+<<<<<<< Updated upstream
     padding-top: 1%;
     margin-left: 45%;
+=======
+    padding-top: 5px;
+>>>>>>> Stashed changes
 }
 
 .slider-frame ul li a h1{
@@ -329,6 +333,102 @@ h1#titulo3{
 }
 
 
+<<<<<<< Updated upstream
+=======
+/*about us */
+
+.contenedor-about-us{
+    background-color:black;
+}
+
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#f6eac2;
+    padding: 5% ;
+}
+
+.contenedor-about-us h2
+
+.imagen-about-us{
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+
+.contenido-textos h3 span{
+    background: #052a56;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    margin-right: 5px; 
+}
+
+.contenido-textos h2{
+    margin-bottom: 15px;
+    margin-left: 5%;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 15;
+}
+
+.contenido-textos h2 span{
+    background: #052a56;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    margin-right: 5px; 
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.contenido-textos h4{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+/*responsividad about us*/
+
+@media (max-width:1000px) {
+    .contenedor-sobre-nosotros img{
+        object-fit: cover;
+        width:90%;
+        height:130%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .contenedor-sobre-nosotros{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+>>>>>>> Stashed changes
 
 /*galeria*/
 
@@ -518,8 +618,8 @@ h1#titulo3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: -17%;
-    margin-bottom: 2%;
+    margin-top: -259px;
+    margin-bottom: 0%;
     background-image: url(https://previews.123rf.com/images/xurzon/xurzon1607/xurzon160700029/62194941-muro-de-hormig%C3%B3n-de-textura-de-fondo.jpg);
   }
   
