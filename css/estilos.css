@@ -10,7 +10,7 @@
 
 body{
     font-family: 'open sans';
-    background-color: beige;
+    background-color: black;
 }
 
 
@@ -477,30 +477,42 @@ header .botoncotiza {
 /*Nosotros*/
 
 .nosotros-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f1f1f1;
-  text-align: center;
-  margin-top: 25px;
+  width: 1300px;
+  margin-top: 25px ;
+  background-color: white;
+  height: 225px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .nosotros-container h2 {
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
-.nosotros-container img {
+.nosotros-content {
+  display: flex;
+  align-items: center;
+}
+
+.nosotros-image {
+  flex-basis: 30%;
+  margin-right: 20px;
+}
+
+.nosotros-image img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
 }
 
-.nosotros-container p {
+.nosotros-text {
+  flex-basis: 70%;
+}
+
+.nosotros-text p {
   font-size: 18px;
   line-height: 1.5;
-  text-align: justify;
-  margin-bottom: 0;
 }
 
 /*Responsive nosotros*/
@@ -525,11 +537,12 @@ header .botoncotiza {
 .mision-content {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 .mision-image {
   flex-basis: 30%;
-  margin-right: 20px;
+  margin-left: 350px;
 }
 
 .mision-image img {
@@ -551,38 +564,96 @@ header .botoncotiza {
 
 .servicios-container {
   background-color: #F5F5F5;
-  padding: 50px;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-image: url(/img/caution-tape-ribbons-on-white-background-copy-space-composition-for-text-illustration-vector\ \(1\).jpg);
 }
 
 .servicios-container h2 {
   font-size: 36px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .servicios-container p {
   font-size: 18px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .servicios-container ul {
   list-style: disc;
   font-size: 18px;
   margin-left:0px;
+  text-align: center;
 }
+  /*¿Porque Elegirnos?*/
+
+  .razones-container {
+    background-color: #F5F5F5;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-image: url("/img/caution-tape-ribbons-on-white-background-copy-space-composition-for-text-illustration-vector\ \(1\).jpg");
+    
+    
+    
+  }
+  
+  .razones-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .razones-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .razones-container ul {
+    list-style: disc;
+    font-size: 18px;
+    margin-left:0px;
+    text-align: center;
+  }
+  
+
+
+
 
 /* Estilo general de la card */
+div .materiales-container{
+  background-image: url(https://img.freepik.com/fotos-premium/cierrese-encima-textura-fondo-pared-hormigon-cemento-espacio_1627-3777.jpg);
+}
+
+.servicios-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
 .materiales-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #cccccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   width: 300px;
   height: 250px;
-  margin: 20px;
+  margin: 15px;
   overflow: hidden;
   display: inline-flex;
 }
@@ -590,7 +661,7 @@ header .botoncotiza {
 /* Estilo de la imagen en la card */
 .materiales-card img {
   width: 100%;
-  height: 150px;
+  height: 100%;
   object-fit: cover;
 
 }
@@ -615,7 +686,7 @@ header .botoncotiza {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: white;
   color: #ffffff;
   position: absolute;
   top: 0;
@@ -638,6 +709,9 @@ header .botoncotiza {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
+
+
 
 /*galeria*/
 
