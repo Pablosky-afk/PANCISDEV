@@ -20,46 +20,105 @@
     <!-- Nav Inicio -->
     <nav id="menu">
       <ul>
-          <li><a href="#">Servicios ▼</a>
-              <ul>
-                  <li><a href="servicios.html">Nuestros servicios</a></li>
-                  <li><a href="materiales.html">Materiales</a></li>
-              </ul>
+        <li><a href="contacto.html">Contacto</a></li>
           <li><a href="galeria.html">Galeria</a></li>
           <li><a href="#">Nosotros ▼</a>
               <ul>
                  <li><a href="nosotros.html">Nosotros</a></li>
                  <li><a href="mision.html">Servicios</a></li>
               </ul>
-
-          <li><a href="contacto.html">Contacto</a></li>
-      </ul>
+              <li><a href="#">Servicios ▼</a>
+                <ul>
+                    <li><a href="servicios.html">Nuestros servicios</a></li>
+                    <li><a href="materiales.html">Materiales</a></li>
+                </ul>
+                </ul>
   </nav>
   <div class="botoncotiza">
-      <a id="cotiza" tittle="cotizacon" href="cotizar.html"><img src="img/EMET (1).png" alt="cotizacon" /></a>
+      <a id="cotiza" tittle="cotizacon" href="contacto.html"><img src="img/EMET (1).png" alt="cotizacon" /></a>
   </div>
 <!-- Nav Fin -->
     </header>
 <!-- Header Fin -->
     <!--Contactate con nosotros-->
-	<main>
-        <section class="contenedor-about-us2">
-            <div class="cotizar2">
-              <form action="https://formsubmit.co/el/zanoto" method="POST">
-                    <h2>¿Necesitas que te contactemos?</h2>
-                    <input type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre">
-                    <input type="text" name="apellido" id="apellidos" placeholder="Ingrese su apellido">
-                    <input type="text" name="email" id="emails" placeholder="Email de contacto">
-                    <input type="text" name="numero" id="numeros" placeholder="Numero de contacto">
-                    <textarea  name="mensaje" placeholder="Deje aqui su mensaje"></textarea>
-                    <input type="checkbox" class="mycheck" id="mycheck"> 
-                    <label for="mycheck">Acepto terminos y condiciones</label>
-                    <button type="submit">Enviar</button>
-            </div>
+    <html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+
+  <!-- Enlace al documento css. no aplicable en codepen.
+  <link rel="stylesheet" type="text/css" href="contact-form.css">
+-->
+  
+  </head>
+
+
+<body>  
+  
+  <!-- formulario de contacto en html y css -->  
+
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
             
-        </section>
-        
-    </main>
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="website" class="colocar_website">Sitio web
+                  </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+
+
     
   <!--Fin contactate con nosotros-->
   <!--Inicio Footer-->
