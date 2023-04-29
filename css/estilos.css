@@ -42,6 +42,8 @@ nav{
     margin:0;
     padding:0;
     
+    
+    
 }
 
 #menu ul li {
@@ -50,6 +52,8 @@ nav{
     border: 1px;
     border-radius: 0%;
     z-index: 1000;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 
 }
 
@@ -72,8 +76,12 @@ nav{
     margin:0;
     padding:0;
     margin-left: 1%;
+    border-radius: 10px;
 }
+#menu ul li ul{
+  border-radius: 20px;
 
+}
 #menu ul li a:hover {
     color:#fbbd00;
 }
@@ -85,11 +93,13 @@ nav{
     left:0;
     background:#eee;
     padding:0;
+    
 }
 
 #menu ul ul li {
     float:none;
     width:100%;
+    
     
 }
 
@@ -395,8 +405,8 @@ header .botoncotiza {
   border-radius: 10px;
   background-color: white;
   margin-bottom: 20px;
-  flex-direction: column;
-  flex: content;
+  
+  
 }
 
 .contenedorIndex3 {
@@ -458,8 +468,9 @@ header .botoncotiza {
 
 /* Estilos para las descripciones */
 .contenedorIndex1 p {
-  text-align: justify;
+  text-align: center;
   line-height: 1.5;
+  padding-top: 10px;
 }
 
 .contenedorIndex2 p {
@@ -480,15 +491,20 @@ header .botoncotiza {
   width: 1300px;
   margin-top: 25px ;
   background-color: white;
-  height: 225px;
+  height: 290px;
   margin-left: 25px;
   margin-right: 25px;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
 }
 
 .nosotros-container h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-left: 25px;
 }
 
 .nosotros-content {
@@ -502,7 +518,8 @@ header .botoncotiza {
 }
 
 .nosotros-image img {
-  max-width: 100%;
+  width: 200px;
+  height: 200px;
   height: auto;
 }
 
@@ -523,9 +540,13 @@ header .botoncotiza {
   width: 1300px;
   margin-top: 25px ;
   background-color: white;
-  height: 225px;
+  height: 290px;
   margin-left: 25px;
   margin-right: 25px;
+  padding-left: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-top: 10px;
 }
 
 .mision-container h2 {
@@ -543,11 +564,14 @@ header .botoncotiza {
 .mision-image {
   flex-basis: 30%;
   margin-left: 350px;
+  
 }
 
 .mision-image img {
-  max-width: 100%;
+  width: 200px;
+  height: 200px;
   height: auto;
+  
 }
 
 .mision-text {
@@ -570,26 +594,29 @@ header .botoncotiza {
   margin-bottom: 25px;
   margin-right: 25px;
   margin-left: 25px;
-  background-image: url(/img/caution-tape-ribbons-on-white-background-copy-space-composition-for-text-illustration-vector\ \(1\).jpg);
+  background-image: url(/img/caution-tape.jpg);
 }
 
 .servicios-container h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
+  margin-left: 270px;
 }
 
 .servicios-container p {
   font-size: 18px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
+  margin-left: 430px;
 }
 
 .servicios-container ul {
   list-style: disc;
   font-size: 18px;
   margin-left:0px;
-  text-align: center;
+  text-align: left;
+  margin-left: 630px;
 }
   /*¿Porque Elegirnos?*/
 
@@ -600,8 +627,8 @@ header .botoncotiza {
     padding-bottom: 25px;
     margin-bottom: 25px;
     margin-right: 25px;
-    margin-left: 25px;
-    background-image: url("/img/caution-tape-ribbons-on-white-background-copy-space-composition-for-text-illustration-vector\ \(1\).jpg");
+    margin-left: 25px;  
+    background-image: url("/img/caution-tape-reverse.jpg");
     
     
     
@@ -610,23 +637,25 @@ header .botoncotiza {
   .razones-container h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
+    margin-left: 300px;
   }
   
   .razones-container p {
     font-size: 18px;
     margin-bottom: 30px;
     text-align: center;
+    
   }
   
   .razones-container ul {
     list-style: disc;
     font-size: 18px;
     margin-left:0px;
-    text-align: center;
+    text-align: left;
+    margin-left: 250px;
   }
   
-
 
 
 
@@ -686,7 +715,7 @@ div .materiales-container{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-image: url(https://img.freepik.com/fotos-premium/cierrese-encima-textura-fondo-pared-hormigon-cemento-espacio_1627-3777.jpg);
   color: #ffffff;
   position: absolute;
   top: 0;
