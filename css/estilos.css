@@ -372,8 +372,8 @@ header .botoncotiza {
     font-size: 30px;
     margin-left: 1px;
     display: flex;
-    padding-top: 70px;
-    justify-content: center;
+    padding-top: 40px;
+    padding-left: 25%;
   }
   .slider-frame ul li a p{
     font-size: 15px;
@@ -381,6 +381,8 @@ header .botoncotiza {
     height: 40px;
     border-radius: 5%;
     display: flex;
+    text-align: center;
+    
  }  
   }
 
