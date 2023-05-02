@@ -15,30 +15,37 @@
 </head>
 
 <!-- Header Inicio -->
-    <header>
-        <a title="logo" href="index.html"><img src="img/EMET SIN FONDO_CIRCULO SÓLIDO PNG.png" alt="logo" /></a>
+    
     <!-- Nav Inicio -->
-    <nav id="menu">
-      <ul>
-        <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="#">Nosotros ▼</a>
-              <ul>
-                 <li><a href="nosotros.html">Nosotros</a></li>
-                 <li><a href="mision.html">Mision</a></li>
-              </ul>
-              <li><a href="servicios.html">Servicios <!--▼--></a>
-                <ul>
-                    <!--<li><a href="servicios.html">Nuestros servicios</a></li>-->
-                    <!--<li><a href="materiales.html">Materiales</a></li>-->
-                </ul>
-                </ul>
-  </nav>
-  <div class="botoncotiza">
-      <a id="cotiza" tittle="cotizacon" href="contacto.html"><img src="img/EMET (1).png" alt="cotizacon" /></a>
-  </div>
+    <nav class="navbar">
+      <div class="nav_logo">
+      <a href="index.html">
+      <img src="img/EMET SIN FONDO_CIRCULO SÓLIDO PNG.png"> 
+      </a>
+      </div>
+      <div class="nav_items" id="_items">
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="mision.html">Mision</a>
+          <a href="contacto.html">Contacto</a>
+
+      </div>
+      <div class="nav_toggle" id="_toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+ </nav>
+  <script>
+    _toggle.onclick = () =>{
+        _items.classList.toggle("open")
+        _toggle.classList.toggle("close")
+    }
+   </script>
 <!-- Nav Fin -->
-    </header>
+
 <!-- Header Fin -->
 <!-- Slider Inicio -->
 <div class="slider-frame">
@@ -96,26 +103,26 @@
 <div class="contenedorIndex2">
   <h2>Tipos de trabajo</h2>
   <div class="imagenes">
-    <img src="trabajo1.jpg" alt="Trabajo 1">
+    <img src="img/Trabajo1.png" alt="Trabajo 1">
     <p>Realizamos proyectos de construcción de edificios y viviendas de alta calidad.</p>
-    <img src="trabajo2.jpg" alt="Trabajo 2">
+    <img src="img/Trabajo2.png" alt="Trabajo 2">
     <p>Desarrollamos proyectos de infraestructura vial y de transporte.</p>
-    <img src="trabajo3.jpg" alt="Trabajo 3">
+    <img src="img/Trabajo3.png" alt="Trabajo 3">
     <p>Ofrecemos soluciones de ingeniería para la generación de energías renovables.</p>
-    <img src="trabajo4.jpg" alt="Trabajo 4">
+    <img src="img/Trabajo4.png" alt="Trabajo 4">
     <p>Diseñamos proyectos de ingeniería civil para el sector industrial y comercial.</p>
   </div>
 </div>
 <div class="contenedorIndex3">
   <h2>Servicios y materiales</h2>
   <div class="imagenes">
-    <img src="servicio1.jpg" alt="Servicio 1">
+    <img src="img/Servicio1.png" alt="Servicio 1">
     <p>Ofrecemos asesoramiento técnico especializado para la planificación y ejecución de proyectos.</p>
-    <img src="servicio2.jpg" alt="Servicio 2">
+    <img src="img/Servicio2.png" alt="Servicio 2">
     <p>Contamos con un equipo de profesionales altamente capacitados y comprometidos con la calidad de nuestro trabajo.</p>
-    <img src="servicio3.jpg" alt="Servicio 3">
+    <img src="img/Servicio3.png" alt="Servicio 3">
     <p>Utilizamos materiales de alta calidad y tecnología de última generación para garantizar la eficiencia y durabilidad de nuestras soluciones de ingeniería.</p>
-    <img src="servicio4.jpg" alt="Servicio 4">
+    <img src="img/Servicio4.png" alt="Servicio 4">
     <p>Realizamos mantenimiento y reparación de infraestructuras, garantizando su funcionamiento y seguridad</p>
 <!--Fin Body--></body>
   </div>

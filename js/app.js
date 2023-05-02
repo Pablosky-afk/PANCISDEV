@@ -60,4 +60,3 @@ $('.fancyTabs').each(function() {
 
 });
 });
-

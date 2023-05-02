@@ -14,29 +14,34 @@
     <script src="js/app.js"></script>
 </head>
 <body>
-<!-- Header Inicio -->
-    <header>
-        <a title="logo" href="index.html"><img src="img/EMET SIN FONDO_CIRCULO SÓLIDO PNG.png" alt="logo" /></a>
-     <!-- Nav Inicio -->
-     <nav id="menu">
-      <ul>
-        <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="#">Nosotros ▼</a>
-              <ul>
-                 <li><a href="nosotros.html">Nosotros</a></li>
-                 <li><a href="mision.html">Mision</a></li>
-              </ul>
-              <li><a href="servicios.html">Servicios <!--▼--></a>
-                <ul>
-                    <!--<li><a href="servicios.html">Nuestros servicios</a></li>-->
-                    <!--<li><a href="materiales.html">Materiales</a></li>-->
-                </ul>
-                </ul>
-  </nav>
-  <div class="botoncotiza">
-      <a id="cotiza" tittle="cotizacon" href="contacto.html"><img src="img/EMET (1).png" alt="cotizacon" /></a>
-  </div>
+    <!-- Nav Inicio -->
+    <nav class="navbar">
+      <div class="nav_logo">
+      <a href="index.html">
+      <img src="img/EMET SIN FONDO_CIRCULO SÓLIDO PNG.png"> 
+      </a>
+      </div>
+      <div class="nav_items" id="_items">
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="mision.html">Mision</a>
+          <a href="contacto.html">Contacto</a>
+
+      </div>
+      <div class="nav_toggle" id="_toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+ </nav>
+  <script>
+    _toggle.onclick = () =>{
+        _items.classList.toggle("open")
+        _toggle.classList.toggle("close")
+    }
+   </script>
 <!-- Nav Fin -->
     </header>
 <!-- Header Fin -->
